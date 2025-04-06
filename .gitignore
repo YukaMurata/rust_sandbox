@@ -2,3 +2,4 @@
 ./saba/target
 ./run_on_wasabi.sh
 ./rust-toolchain.toml
+./Makefile
