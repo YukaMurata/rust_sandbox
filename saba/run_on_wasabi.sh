@@ -1,5 +1,7 @@
-#!/bin/bash -xe
+#QEMUのGUIが立ち上がらない不具合対応
+export DISPLAY=0
 
+#!/bin/bash -xe
 HOME_PATH=$PWD
 TARGET_PATH=$PWD"/build"
 OS_PATH=$TARGET_PATH"/wasabi"
